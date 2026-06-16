@@ -37,6 +37,8 @@ pipeline{
 				)
 			]){
 			sh ''' 
+				git config user.name "luffykap"
+                               git config user.email "luffykapill@gmail.com"
 				git add destination.txt
 				git commit -m "updated"
 				
